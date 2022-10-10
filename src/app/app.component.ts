@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hello-world';
+  hugo = 'hugo';
+
+  public multiply(a: number, b: number): number {
+    return a * b;
+  }
 }
